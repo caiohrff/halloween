@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+    box-sizing: border-box;
+}
+
+
+body, html {
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Tahoma, sans-serif;
+}
+
+#wallpaper{
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    position: relative; 
+}
+
+/*Definindo tamanho da imagem*/
+.imgWallpaper{
+
+    width: 100%;
+    height: 100%;
+
+}
+#fundo {
+
+    position: fixed;
+    width: 100%;
+    height: 100%;
+
+}
+
+div .ghost{
+    position: absolute;
+    
+    top: 55%;
+
+    width: 25%;
+    height: 50%;
+
+    /* Invertendo o lado da imagem horizontalmente, ANGULO X */
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+
+div .ghost2{
+    position: absolute;
+    
+    top: 42%;
+    left: 34%;
+
+    width: 10%;
+    height: 20%;
+}
+
+div .ghost3{
+    position: absolute;
+    
+    top: 45%;
+    left: 60%;
+
+    width: 10%;
+    height: 20%;
+}
+
+div .ghost4{
+    position: absolute;
+    
+    top: 44%;
+    left: 66%;
+
+    width: 10%;
+    height: 20%;
+}
+
+div .bats{
+    position: absolute;
+    
+    top: 12%;
+    left: 3%;
+
+    width: 20%;
+    height: 30%;
+}
+
+div .bats2{
+    position: absolute;
+    
+    top: 16%;
+    left: 40%;
+
+    width: 20%;
+    height: 30%;
+}
+
+div .wich{
+    position: absolute;
+    
+    top: 32%;
+    left: 18%;
+
+    width: 30%;
+    height: 50%;
+
+    /* Invertendo o lado da imagem horizontalmente */
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+div .ghostHat{
+    position: absolute;
+    
+    top: 50%;
+    left: 60%;
+
+    width: 6%;
+    height: 18%;
+
+    /* Invertendo o lado da imagem horizontalmente */
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+div .ghostHat2{
+    position: absolute;
+    
+    top: 70%;
+    left: 25%;
+
+    width: 8%;
+    height: 25%;
+}
+
+div .skeleton{
+    position: absolute;
+    
+    top: 70%;
+    left: 85%;
+
+    width: 8%;
+    height: 25%;
+}
+
+div .zombie{
+    position: absolute;
+    
+    top: 70%;
+    left: 40%;
+
+    width: 12%;
+    height: 25%;
+}
+
+div .zombie2{
+    position: absolute;
+    
+    top: 55%;
+    left: 20%;
+
+    width: 10%;
+    height: 21%;
+
+    /* Invertendo o lado da imagem horizontalmente */
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+div .crow{
+    position: absolute;
+    
+    top: 80%;
+    left: 60%;
+
+    width: 8%;
+    height: 20%;
+}
+
+div .crow2{
+    position: absolute;
+    
+    top: 10%;
+    left: 20%;
+
+    width: 7%;
+    height: 14%;
+
+    /* Invertendo o lado da imagem horizontalmente */
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.cursorFundo {
+    background:gray;
+    width:200px;
+    height:200px;
+    cursor:url(../assets/zombieHand.png) 10 3, auto;
+
+}
